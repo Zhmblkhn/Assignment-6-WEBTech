@@ -71,7 +71,7 @@ function validateForm() {
   let password = document.getElementById("password").value;
 
   if (!name || !email || !password) {
-    document.getElementById("error").innerText = "Пожалуйста, заполните все поля!";
+    document.getElementById("error").innerText = "Please, fill in all fields!";
     return false;
   }
 }
